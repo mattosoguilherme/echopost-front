@@ -11,9 +11,9 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
-    if (!token) {
-      navigate("/");
-    }
+    // if (!token) {
+    //   navigate("/");
+    // }
   }, [navigate]);
 
   const login = async (email, senha) => {

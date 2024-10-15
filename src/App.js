@@ -5,6 +5,7 @@ import { AuthProvider } from "./component/AuthContext";
 import PrivateRoute from "./component/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import Document from "./pages/Document";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <AuthProvider>
         <Routes>
           <Route path="/" element={<Login />} />
+          <Route path="/terms" element={<Document />} />
           <Route
             path="/dashboard"
             element={

@@ -1,6 +1,6 @@
 import React from "react";
 
-function tiktok() {
+function Tiktok() {
   return <>pagina tiktok</>;
 }
-export default tiktok;
+export default Tiktok;

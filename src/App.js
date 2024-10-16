@@ -6,6 +6,7 @@ import PrivateRoute from "./component/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Document from "./pages/Document";
+import Tiktok from "./pages/tiktok";
 
 const App = () => {
   return (
@@ -14,7 +15,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/termos" element={<Document />} />
-          <Route path="/tiktok-developers-site-verification=YsQga713CDpVtQnLssuDKH5ls5NrYhPb" element={<Document />} />
+          <Route
+            path="/tiktok-developers-site-verification=YsQga713CDpVtQnLssuDKH5ls5NrYhPb"
+            element={<Tiktok />}
+          />
           <Route
             path="/dashboard"
             element={
